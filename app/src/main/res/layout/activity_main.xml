@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đỗ Hùng Quốc Khánh"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Doc lai toan bo danh ba"
+        android:background="@drawable/bg_btn"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_gravity="center_horizontal"
+        android:text="Doc lai toan bo tin nhan"
+        android:background="@drawable/bg_btn"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>
